@@ -1,0 +1,270 @@
+*{
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+h1{ font-size: 1em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{font-size: 1em;}
+
+body{
+   margin: 0;
+font-family: 'Courier New', Courier, monospace;
+}
+.card input{
+font-size: 0.9em;
+font-weight: bold;
+box-shadow: 1px 1px 10px rgb(0,0,0,0.5);
+padding: 1.3px 2.5px ;
+flex-direction:row;
+margin: 1px;
+position:relative;
+right: 100px;
+
+}
+.card-text{
+   position:flex;
+   text-align:justify;
+}
+.card h5{
+   padding-right: 200px;
+}
+
+button:hover{
+background-color: rgb(253, 253, 246);
+}
+
+
+
+.container{
+   max-width: 1500px;
+   margin: auto;
+
+}
+
+header{
+   background-color: rgb(48, 51, 51);
+}
+
+header .logo{
+   margin-top: 10px;
+   padding: 5px 70px;
+   font-weight: bold;
+   background-image: url(codoacodo.png);
+   position:relative;
+   right:40px;
+   background-repeat: no-repeat;
+   background-size: 85px 45px;
+   color:white
+
+}
+
+header .container{
+   display: flex;
+   flex-direction:column;
+   text-align: center;
+   flex-direction: row;
+   justify-content:space-between;
+
+}
+
+header nav{
+   
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 30px;
+   text-decoration: none;
+   flex-direction: row;
+   padding-bottom: 50px;
+   margin-top: 10px;
+
+}
+
+
+
+header a{
+   padding: 5px 20px;
+   text-align:center;
+   color:white;
+   text-decoration: none;
+   
+}
+
+
+header a:hover{
+   color: rgb(219, 216, 216);
+
+}
+header .color-a:hover{
+   color: rgb(219, 216, 216);
+}
+header .color-acento:hover{
+   color: rgb(219, 216, 216);
+}
+.color-acento{
+   color:rgb(50, 134, 5)
+   
+}
+.color-a{
+   color:rgb(184, 180, 180)
+}
+
+
+#hero{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   text-align:justify;
+   padding:10px;
+   height: 90vh;
+   color:white;
+   background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+   )
+   ,url("ba1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center center;
+
+}
+
+#hero h1{
+   color: rgb(254, 254, 254);
+   position: absolute;
+   right: 10px;
+   width: 300px;
+   height: 100px;
+
+}
+#hero p{
+   position:absolute;
+   right: 100px;
+   width: 550px;
+   height: 1px;
+   text-align: justify;
+
+}
+.botones{
+   margin: 10%;
+   height: 50vh;
+   display: flex;
+   flex-direction:row;
+   padding-left: 740px;
+   padding-top: 400px;
+   justify-content:flex-start;
+   align-items: flex-end;
+   
+   
+}
+.card-group {
+   margin: 10px;
+   margin-bottom: 70px;
+}
+
+
+#oradores{
+   background-color: white;
+   color:black;
+   text-align: center;
+
+}
+
+
+#octubre1{
+   height: 800px;
+   background-image: url(honolulu.jpg);
+   position:relative;
+   background-size: 677px 600px;
+   background-repeat: no-repeat;
+   
+}
+
+#octubre2{
+
+   width: 50%;
+   height: 600px;
+   background-color: rgb(48, 51, 51);
+   margin-right: 100px;
+   margin-top: 400px;
+   position: relative;
+   left: 679px;
+   text-align:justify;
+   color:white;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   top: -1200px;
+}
+
+#formularios{
+color:0,0,0,0.5;
+margin-top: -1100px;
+
+}
+
+#formularios h6 {
+   color:gray;
+   margin-top: -10px;
+   text-align:center ;
+}
+
+#formularios h3{
+   text-align: center;
+   margin-top: -30px;
+   margin-bottom: 20px;
+}
+
+#formularios input{
+border: 0.4px solid #c4dada;
+width: 45%;
+box-shadow: 1px;
+margin-right: 20px;
+margin-left: 12px;
+}
+ 
+
+.btn {
+   margin-top: 50px;
+   text-align: center;
+   padding-left: 200px;
+   padding-right: 1110px; 
+   border: transparent; 
+}
+
+.d-grid  button{
+background-color: rgb(151, 207, 77);
+font-size: x-large;
+margin-bottom: 20px;
+} 
+
+
+
+
+
+footer{
+   margin: 0;
+   padding-bottom: 90px;
+   padding-top: 45px;
+   background-color: rgb(41, 63, 92);
+   display: flex;
+   flex-direction:column;
+   text-align: center;
+   flex-direction: row;
+   justify-content:space-between;
+
+}
+footer a{
+   
+   color:white;
+   text-decoration: none; 
+   padding: 50px 20px;
+   
+
+}
+
+footer a:hover{
+   color:rgb(184, 180, 180)
+}
